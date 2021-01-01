@@ -28,7 +28,9 @@ app.get('/api/v1/tours/:id', (req, res) => {
   res.send('omkay you got it');
 });
 
-
+app.delete('/api/v1/tours/:id', (req, res) => {
+  res.send('Got your request the given function will be implemented');
+});
 
 //we need a middleware in case of a post request a middleware is basically a function which is implemented between a request response cycle
 
